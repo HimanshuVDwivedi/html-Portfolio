@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Dwivedi - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header h2 {
+            margin-top: 10px;
+            font-weight: 300;
+            color: #fc7854;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #e8491d;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            margin: 0 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #35424a;
+        }
+
+        .content {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .project {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .project img {
+            margin-right: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .project img:hover {
+            transform: scale(1.1);
+        }
+
+        .project h3 {
+            margin: 0;
+            font-size: 24px;
+            color: #35424a;
+        }
+
+        .project a {
+            text-decoration: none;
+            color: #e8491d;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        .project a:hover {
+            color: #35424a;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #35424a;
+            color: #ffffff;
+            margin-top: 30px;
+            border-top: 4px solid #e8491d;
+        }
+
+        footer a {
+            color: #e8491d;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Himanshu Dwivedi</h1>
+        <h2>I am a Coder</h2>
+    </header>
+
+    <nav>
+        <a href="public\aboutme.html">About Me</a>
+        <a href="./public/contactme.html">Contact</a>
+    </nav>
+
+    <div class="content">
+        <section class="project">
+            <img src="./Movies.png" alt="Movie Ranking Project" height="150px" width="150px">
+            <div>
+                <h3>Movie Ranking Project</h3>
+                <a href="./public/movieranking.html">View Project</a>
+            </div>
+        </section>
+        <section class="project">
+            <img src="./Birthday.png" alt="Birthday Invitation" height="150px" width="150px">
+            <div>
+                <h3>Birthday Invitation</h3>
+                <a href="./public/birthdayinvite.html">View Project</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Himanshu Dwivedi</p>
+        <a href="https://github.com/yourgithubprofile" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/yourlinkedinprofile" target="_blank">LinkedIn</a>
+    </footer>
+
+</body>
+
+</html>
